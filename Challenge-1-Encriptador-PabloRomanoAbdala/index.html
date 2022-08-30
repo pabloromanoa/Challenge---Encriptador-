@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+
+<html lang="es"> 
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css"media="screen"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+
+            <h1 class="logo"><img src="imagenes/logo-alura.png" alt="Logo de alura"></h1>
+
+        </header>
+        <main>
+            <section class="entrada">
+                <textarea class="mensaje" placeholder="Ingresa el texto aquí..."></textarea>
+                
+                <div class="informacion">
+                    <img src="imagenes/exclamacion.png" class="simbolo">
+                    <p class="importante"> Sólo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button class="encriptar">Encriptar</button>
+        
+                    <button class="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="salida">
+                <textarea class="mensajeSalida" readonly placeholder=" "></textarea>
+                <p class="noEncontrado">Ningún mensaje fue encontrado</p>
+                <p class="ingresa">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="copiar">Copiar</button>
+            </section>
+        </main>
+        <footer>
+            <p>Desarrollado por Pablo Romano Abdala: <a href="https://www.linkedin.com/in/pablo-romano-abdala-721101237/"><img class="contacto" src="./imagenes/linkedin.svg" alt="Linkedin"></a> | <a href="https://github.com/pabloromanoa"><img class="contacto" src="./imagenes/github.svg" alt="GitHub"></a></p>
+        </footer>
+    </body>
+    <script src="javascript/encripatador.js"></script>
+    <script src="javascript/chequearEncriptacion.js"></script>
+</html>
+
